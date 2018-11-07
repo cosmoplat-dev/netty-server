@@ -1,0 +1,262 @@
+10:24:41.429,Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@543e543b: startup date [Thu Mar 22 10:24:41 CST 2018]; root of context hierarchy
+10:24:41.695,JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:24:41.757,Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c3e8785d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:24:42.275,No active profile set, falling back to default profiles: default
+10:24:42.307,Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@28a11204: startup date [Thu Mar 22 10:24:42 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@543e543b
+10:24:44.028,Multiple Spring Data modules found, entering strict repository configuration mode!
+10:24:44.630,Multiple Spring Data modules found, entering strict repository configuration mode!
+10:24:44.661,Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sun.collector.mapper.data.DataSwitchDao.
+10:24:44.661,Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sun.collector.mapper.data.HistoryDataDao.
+10:24:44.661,Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sun.collector.mapper.data.RealtimeDataDao.
+10:24:44.661,Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sun.collector.mapper.data.SwitchStatusDao.
+10:24:44.661,Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sun.collector.mapper.device.DeviceStatusDao.
+10:24:44.661,Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sun.collector.mapper.device.ReceiptCollectorDao.
+10:24:44.661,Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sun.collector.mapper.device.ReceiptDeviceDao.
+10:24:44.661,Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sun.collector.mapper.device.ReceiptMeterDao.
+10:24:44.787,Overriding bean definition for bean 'environmentWebEndpointExtension' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.env.EnvironmentEndpointAutoConfiguration; factoryMethodName=environmentWebEndpointExtension; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/env/EnvironmentEndpointAutoConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.autoconfigure.LifecycleMvcEndpointAutoConfiguration$EndpointConfiguration; factoryMethodName=environmentWebEndpointExtension; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/autoconfigure/LifecycleMvcEndpointAutoConfiguration$EndpointConfiguration.class]]
+10:24:45.478,BeanFactory id=9dbe1d20-db7d-3213-8d5b-4b6ba0b08629
+10:24:45.512,JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:24:45.747,Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c3e8785d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:24:46.521,Tomcat initialized with port(s): 8093 (http)
+10:24:46.531,Initializing ProtocolHandler ["http-nio-8093"]
+10:24:46.546,Starting service [Tomcat]
+10:24:46.546,Starting Servlet Engine: Apache Tomcat/8.5.28
+10:24:46.562,The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin/server;D:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin;D:/Program Files/Java/jdk1.8.0_144/bin/../jre/lib/amd64;C:\Program Files\Docker\Docker\resources\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.5.0\bin;C:\Program Files\TortoiseGit\bin;D:\cassandra\apache-cassandra-3.11.0\bin;D:\Python27;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\Programs\Fiddler;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;F:\work\software\eclipse;;.]
+10:24:46.750,Initializing Spring embedded WebApplicationContext
+10:24:46.750,Root WebApplicationContext: initialization completed in 4443 ms
+10:24:48.468,Cluster created with settings {hosts=[192.168.1.90:17000], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+10:24:48.483,Adding discovered server 192.168.1.90:17000 to client view of cluster
+10:24:48.579,Opened connection [connectionId{localValue:1, serverValue:57}] to 192.168.1.90:17000
+10:24:48.579,Monitor thread successfully connected to server with description ServerDescription{address=192.168.1.90:17000, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 6]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=2362293}
+10:24:48.579,Discovered cluster type of STANDALONE
+10:24:51.426,Servlet dispatcherServlet mapped to [/]
+10:24:51.443,Mapping filter: 'characterEncodingFilter' to: [/*]
+10:24:51.443,Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+10:24:51.443,Mapping filter: 'httpPutFormContentFilter' to: [/*]
+10:24:51.443,Mapping filter: 'requestContextFilter' to: [/*]
+10:24:51.443,Mapping filter: 'httpTraceFilter' to: [/*]
+10:24:51.443,Mapping filter: 'webMvcMetricsFilter' to: [/*]
+10:24:51.443,Mapping filter: 'crosFilter' to: [/*]
+10:24:51.818,Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'remoteCtrl': Unsatisfied dependency expressed through field 'receiptDeviceService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'receiptDeviceService': Unsatisfied dependency expressed through field 'receiptDeviceDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'receiptDeviceDao': Invocation of init method failed; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property deviceNo found for type ReceiptDevice!
+10:24:51.834,Invocation of destroy method 'close' failed on bean with name 'eurekaRegistration': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+10:24:51.850,Stopping service [Tomcat]
+10:24:51.912,
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+10:24:51.912,Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'remoteCtrl': Unsatisfied dependency expressed through field 'receiptDeviceService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'receiptDeviceService': Unsatisfied dependency expressed through field 'receiptDeviceDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'receiptDeviceDao': Invocation of init method failed; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property deviceNo found for type ReceiptDevice!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:587)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1344)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.sun.collector.MultiServerApplication.main(MultiServerApplication.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'receiptDeviceService': Unsatisfied dependency expressed through field 'receiptDeviceDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'receiptDeviceDao': Invocation of init method failed; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property deviceNo found for type ReceiptDevice!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:587)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1344)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:584)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'receiptDeviceDao': Invocation of init method failed; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property deviceNo found for type ReceiptDevice!
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1710)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:584)
+	... 37 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property deviceNo found for type ReceiptDevice!
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:90)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:350)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:330)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:283)
+	at java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:324)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:265)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:248)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:250)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:251)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:380)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:381)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:96)
+	at org.springframework.data.mongodb.repository.query.PartTreeMongoQuery.<init>(PartTreeMongoQuery.java:64)
+	at org.springframework.data.mongodb.repository.support.MongoRepositoryFactory$MongoQueryLookupStrategy.resolveQuery(MongoRepositoryFactory.java:192)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:553)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:546)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1049)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:548)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:538)
+	at java.util.Optional.map(Optional.java:215)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:538)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:317)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$3(RepositoryFactoryBeanSupport.java:287)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:141)
+	at org.springframework.data.util.Lazy.get(Lazy.java:63)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:290)
+	at org.springframework.data.mongodb.repository.support.MongoRepositoryFactoryBean.afterPropertiesSet(MongoRepositoryFactoryBean.java:119)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	... 47 common frames omitted
+10:25:40.235,Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@29cf5283: startup date [Thu Mar 22 10:25:40 CST 2018]; root of context hierarchy
+10:25:40.532,JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:25:40.610,Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e757de31] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:25:41.140,No active profile set, falling back to default profiles: default
+10:25:41.171,Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@79124b14: startup date [Thu Mar 22 10:25:41 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@29cf5283
+10:25:42.742,Multiple Spring Data modules found, entering strict repository configuration mode!
+10:25:43.324,Multiple Spring Data modules found, entering strict repository configuration mode!
+10:25:43.356,Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sun.collector.mapper.data.DataSwitchDao.
+10:25:43.356,Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sun.collector.mapper.data.HistoryDataDao.
+10:25:43.356,Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sun.collector.mapper.data.RealtimeDataDao.
+10:25:43.356,Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sun.collector.mapper.data.SwitchStatusDao.
+10:25:43.371,Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sun.collector.mapper.device.DeviceStatusDao.
+10:25:43.371,Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sun.collector.mapper.device.ReceiptCollectorDao.
+10:25:43.371,Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sun.collector.mapper.device.ReceiptDeviceDao.
+10:25:43.371,Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sun.collector.mapper.device.ReceiptMeterDao.
+10:25:43.488,Overriding bean definition for bean 'environmentWebEndpointExtension' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.env.EnvironmentEndpointAutoConfiguration; factoryMethodName=environmentWebEndpointExtension; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/env/EnvironmentEndpointAutoConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.autoconfigure.LifecycleMvcEndpointAutoConfiguration$EndpointConfiguration; factoryMethodName=environmentWebEndpointExtension; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/autoconfigure/LifecycleMvcEndpointAutoConfiguration$EndpointConfiguration.class]]
+10:25:44.095,BeanFactory id=9dbe1d20-db7d-3213-8d5b-4b6ba0b08629
+10:25:44.142,JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:25:44.454,Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e757de31] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:25:45.313,Tomcat initialized with port(s): 8093 (http)
+10:25:45.345,Initializing ProtocolHandler ["http-nio-8093"]
+10:25:45.360,Starting service [Tomcat]
+10:25:45.360,Starting Servlet Engine: Apache Tomcat/8.5.28
+10:25:45.360,The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin/server;D:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin;D:/Program Files/Java/jdk1.8.0_144/bin/../jre/lib/amd64;C:\Program Files\Docker\Docker\resources\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\apache-maven-3.5.0\bin;C:\Program Files\TortoiseGit\bin;D:\cassandra\apache-cassandra-3.11.0\bin;D:\Python27;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\Programs\Fiddler;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;F:\work\software\eclipse;;.]
+10:25:45.601,Initializing Spring embedded WebApplicationContext
+10:25:45.601,Root WebApplicationContext: initialization completed in 4430 ms
+10:25:47.227,Cluster created with settings {hosts=[192.168.1.90:17000], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+10:25:47.233,Adding discovered server 192.168.1.90:17000 to client view of cluster
+10:25:47.335,Opened connection [connectionId{localValue:1, serverValue:58}] to 192.168.1.90:17000
+10:25:47.351,Monitor thread successfully connected to server with description ServerDescription{address=192.168.1.90:17000, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 6]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=2679236}
+10:25:47.351,Discovered cluster type of STANDALONE
+10:25:50.224,Servlet dispatcherServlet mapped to [/]
+10:25:50.237,Mapping filter: 'characterEncodingFilter' to: [/*]
+10:25:50.237,Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+10:25:50.237,Mapping filter: 'httpPutFormContentFilter' to: [/*]
+10:25:50.237,Mapping filter: 'requestContextFilter' to: [/*]
+10:25:50.237,Mapping filter: 'httpTraceFilter' to: [/*]
+10:25:50.237,Mapping filter: 'webMvcMetricsFilter' to: [/*]
+10:25:50.237,Mapping filter: 'crosFilter' to: [/*]
+10:25:51.786,Mapped "{[/device/save],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.sun.collector.rest.DeviceController.save(com.sun.collector.entity.ReceiptDevice)
+10:25:51.803,Mapped "{[/page],methods=[GET]}" onto public java.lang.String com.sun.collector.rest.HtmlController.page(org.springframework.ui.Model)
+10:25:51.804,Mapped "{[/remote/ctrl/turnswitch],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.sun.collector.rest.RemoteCtrlApi.turnswitch(java.util.Map<java.lang.String, java.lang.Object>)
+10:25:51.804,Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+10:25:51.804,Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+10:25:51.804,Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+10:25:51.819,Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10:25:51.819,Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:25:52.037,Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+10:25:52.037,Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+10:25:52.037,Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:25:52.445,Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+10:25:52.695,URLs to be used as dynamic configuration source: [file:/E:/workspace/multi-server/multi-server/target/classes/config.properties]
+10:25:52.711,URLs to be used as dynamic configuration source: [file:/E:/workspace/multi-server/multi-server/target/classes/config.properties]
+10:25:53.141,Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@79124b14: startup date [Thu Mar 22 10:25:41 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@29cf5283
+10:25:53.282,Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:25:53.282,Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:25:53.381,Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:25:53.459,Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+10:25:54.631,LiveReload server is running on port 35729
+10:25:55.602,Registering beans for JMX exposure on startup
+10:25:55.618,Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+10:25:55.618,Bean with name 'environmentManager' has been autodetected for JMX exposure
+10:25:55.618,Bean with name 'refreshScope' has been autodetected for JMX exposure
+10:25:55.618,Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+10:25:55.634,Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+10:25:55.662,Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=79124b14,type=ConfigurationPropertiesRebinder]
+10:25:55.677,Starting beans in phase 0
+10:25:55.693,Setting initial instance status as: STARTING
+10:25:55.771,Initializing Eureka in region us-east-1
+10:25:55.912,Using JSON encoding codec LegacyJacksonJson
+10:25:55.912,Using JSON decoding codec LegacyJacksonJson
+10:25:56.110,Using XML encoding codec XStreamXml
+10:25:56.110,Using XML decoding codec XStreamXml
+10:25:56.524,Resolving eureka endpoints via configuration
+10:25:56.711,Disable delta property : false
+10:25:56.711,Single vip registry refresh property : null
+10:25:56.726,Force full registry fetch : false
+10:25:56.726,Application is null : false
+10:25:56.726,Registered Applications size is zero : true
+10:25:56.726,Application version is -1: true
+10:25:56.726,Getting all instance registry info from the eureka server
+10:25:57.079,The response status is 200
+10:25:57.079,Starting heartbeat executor: renew interval is: 30
+10:25:57.094,InstanceInfoReplicator onDemand update allowed rate per min is 4
+10:25:57.094,Discovery Client initialized at timestamp 1521685557094 with initial instances count: 4
+10:25:57.110,Registering application multi-server with eureka with status UP
+10:25:57.110,Saw local status change event StatusChangeEvent [timestamp=1521685557110, current=UP, previous=STARTING]
+10:25:57.110,DiscoveryClient_MULTI-SERVER/gxs:multi-server:8093: registering service...
+10:25:57.110,Starting beans in phase 2147483647
+10:25:57.110,Context refreshed
+10:25:57.141,Found 1 custom documentation plugin(s)
+10:25:57.157,DiscoveryClient_MULTI-SERVER/gxs:multi-server:8093 - registration status: 204
+10:25:57.204,Opened connection [connectionId{localValue:2, serverValue:59}] to 192.168.1.90:17000
+10:25:57.235,Scanning for api listing references
+10:25:57.508,More than one ScheduledExecutorService bean exists within the context, and none is named 'taskScheduler'. Mark one of them as primary or name it 'taskScheduler' (possibly as an alias); or implement the SchedulingConfigurer interface and call ScheduledTaskRegistrar#setScheduler explicitly within the configureTasks() callback: [bossGroup, workerGroup]
+10:25:57.523,Starting ProtocolHandler ["http-nio-8093"]
+10:25:57.523,Using a shared selector for servlet write/read
+10:25:57.554,Tomcat started on port(s): 8093 (http) with context path ''
+10:25:57.570,Updating port to 8093
+10:25:57.570,Started MultiServerApplication in 18.321 seconds (JVM running for 19.536)
+10:25:57.586,**********DTU采集软件已经启动**********
+10:25:57.953,Unknown channel option 'SO_KEEPALIVE' for channel '[id: 0x627d4161]'
+10:25:57.965,[id: 0x627d4161] REGISTERED
+10:25:57.965,[id: 0x627d4161] BIND: 0.0.0.0/0.0.0.0:36000
+10:25:57.965,[id: 0x627d4161, L:/0:0:0:0:0:0:0:0:36000] ACTIVE
